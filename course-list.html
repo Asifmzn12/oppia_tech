@@ -57,77 +57,146 @@
 			<!-- Header -->
 			<header class="header-two">
 				  <div class="container">
-                <div class="header-nav">
-                    <div class="navbar-header">
-                        <a id="mobile_btn" href="javascript:void(0);">
-                            <span class="bar-icon">
-                                <i class="isax isax-menu"></i>
-                            </span>
-                        </a>
-                        <div class="navbar-logo">
-                            <a class="logo-white header-logo" href="index.html">
-                                <img src="assets/img/oppiatechlogo.svg" class="logo" alt="Logo">
+                    <div class="header-nav">
+                        <div class="navbar-header">
+                            <a id="mobile_btn" href="javascript:void(0);">
+                                <span class="bar-icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
                             </a>
-                            <a class="logo-dark header-logo" href="index.html">
-                                <img src="assets/img/oppiatechlogo.svg" class="logo" alt="Logo">
+                            <div class="navbar-logo">
+                                <a class="logo-white header-logo" href="index.html">
+                                    <img src="assets/img/oppiatechlogo.svg" class="logo" alt="Logo">
+                                </a>
+                                <a class="logo-dark header-logo" href="index.html">
+                                    <img src="assets/img/oppiatech.svg" class="logo" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="main-menu-wrapper">                             
+                            <div class="menu-header">
+                                <a href="index.html" class="menu-logo">
+                                    <img src="assets/img/oppiatechlogo.svg" class="img-fluid" alt="Logo">
+                                </a>
+                                <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </div>
+                            <ul class="main-nav">
+                                <li class="has-submenu megamenu">
+                                    <a href="index.html">Home </a>
+                                 
+                                </li>
+                                <li class="">
+                                    <a href="course-list.html">Courses </a>
+                                   
+                                </li>
+                             
+                                <li class="has-submenu">
+                                    <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
+                                    <ul class="submenu">
+                                       
+                                      
+                                        <li><a href="about-us.html">About Us</a></li>
+                                       
+                                       
+                                    
+                                      
+                                        <li><a href="faq.html">FAQ</a></li>
+                                      
+                                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                      
+                                    </ul>
+                                </li>   
+                       <li><a href="contact-us.html">Contact us</a></li>
+
+                              
+                            </ul>
+                            
+                            <div class="menu-dropdown">
+                                <div class="cart-item">
+                                    <h6>Cart & Wishlist</h6>                                
+                                    <div class="icon-btn">
+                                        <a href="cart.html" class="position-relative">
+                                            <i class="isax isax-shopping-cart5"></i>
+                                            <span class="count-icon bg-success p-1 rounded-pill text-white fs-10 fw-bold">1</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dropdown flag-dropdown mb-2">
+                                    <a href="javascript:void(0);" class="dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="assets/img/flags/us-flag.svg" class="me-2" alt="flag">ENG
+                                    </a>
+                                    <ul class="dropdown-menu p-2 mt-2">
+                                        <li>
+                                            <a class="dropdown-item rounded d-flex align-items-center" href="javascript:void(0);">
+                                                <img src="assets/img/flags/us-flag.svg" class="me-2" alt="flag">ENG
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item rounded d-flex align-items-center" href="javascript:void(0);">
+                                                <img src="assets/img/flags/arab-flag.svg" class="me-2" alt="flag">ARA
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item rounded d-flex align-items-center" href="javascript:void(0);">
+                                                <img src="assets/img/flags/france-flag.svg" class="me-2" alt="flag">FRE
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown mb-2">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        USD
+                                    </a>
+                                    <ul class="dropdown-menu p-2 mt-2">
+                                        <li><a class="dropdown-item rounded" href="javascript:void(0);">USD</a></li>
+                                        <li><a class="dropdown-item rounded" href="javascript:void(0);">YEN</a></li>
+                                        <li><a class="dropdown-item rounded" href="javascript:void(0);">EURO</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown mb-2">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Light
+                                    </a>
+                                    <ul class="dropdown-menu p-2 mt-2">
+                                        <li><a class="dropdown-item rounded" href="javascript:void(0);">Light</a></li>
+                                        <li><a class="dropdown-item rounded" href="javascript:void(0);">Dark</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-login">
+                                <a href="login.html" class="btn btn-primary w-100 mb-2"><i class="isax isax-user me-2"></i>Sign In</a>
+                                <a href="register.html" class="btn btn-secondary w-100"><i class="isax isax-user-edit me-2"></i>Register</a>
+                            </div>
+                        </div>
+                        <div class="header-btn d-flex align-items-center">
+                            <div class="icon-btn me-2">
+                                <a href="javascript:void(0);" id="dark-mode-toggle" class="theme-toggle activate">
+                                    <i class="isax isax-sun-15"></i>
+                                </a>
+                                <a href="javascript:void(0);" id="light-mode-toggle" class="theme-toggle">
+                                    <i class="isax isax-moon"></i>
+                                </a>
+                            </div>
+                            <div class="icon-btn me-3">
+                                <a href="cart.html" class="position-relative">
+                                    <i class="isax isax-shopping-cart5"></i>
+                                    <span class="count-icon bg-success p-1 rounded-pill text-white fs-10 fw-bold">1</span>
+                                </a>
+                            </div>
+                            <a href="login.html" class="btn btn-light d-inline-flex align-items-center me-2">
+                                <i class="isax isax-lock-circle me-2"></i>Sign In
+                            </a>
+                            <a href="register.html" class="btn btn-secondary me-0">
+                                <i class="isax isax-user-edit me-2"></i>Register
                             </a>
                         </div>
                     </div>
-                    <div class="main-menu-wrapper">
-                        <div class="menu-header">
-                            <a href="index.html" class="menu-logo">
-                                <img src="assets/img/oppiatechlogo.svg" class="img-fluid" alt="Logo">
-                            </a>
-                            <a id="menu_close" class="menu-close" href="javascript:void(0);">
-                                <i class="fas fa-times"></i>
-                            </a>
-                        </div>
-                        <ul class="main-nav">
-                            <li class="megamenu active">
-                                <a href="index.html">Home</a>
-
-                            </li>
-                            <li class="has-submenu">
-                                <a href="#">Courses <i class="fas fa-chevron-down"></i></a>
-                                <ul class="submenu">
-                                    <li class="">
-                                        <a href="course-list.html">Courses</a>
-
-                                    </li>
-                                    
-                                </ul>
-                            </li>
-                           
-                            <li class="has-submenu">
-                                <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
-                                <ul class="submenu">
-                                   
-                                    <li><a href="about-us.html">About Us</a></li>
-                       
-                                    
-                                    <!-- <li class="has-submenu">
-                                        <a href="#">Error</a>
-                                        <ul class="submenu">
-                                            <li><a href="error-404.html">404 Error</a></li>
-                                            <li><a href="error-500.html">500 Error</a></li>
-                                        </ul>
-                                    </li> -->
-                                    <li><a href="faq.html">FAQ</a></li>
-                                   
-                                    <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                    <!-- <li><a href="index-rtl.html">RTL</a></li> -->
-                                </ul>
-                            </li>
-                                       <li><a href="contact-us.html">Contact us</a></li>
-                        </ul>
-
-                       
-                      
-                    </div>
-                    
                 </div>
-                    </div>
 
 
 			</header>
